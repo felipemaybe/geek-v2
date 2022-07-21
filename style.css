@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;400&display=swap');
+
+
+
+
+*{
+
+    align-content: center;
+    align-items: center;
+    box-sizing:border-box;
+    
+    font-family: 'IBM Plex Sans', sans-serif;
+
+
+}
+
+nav{
+
+    height: 79px;
+    width:  840px;
+
+
+}
+
+img{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+}
+
+ul{
+
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10;
+    list-style-type:none
+    
+    
+}
+figure{
+    
+    align-items: center;
+    cursor: pointer;
+
+}
+
+
+.ul-container{
+
+    width: 900px;
+    
+
+
+
+}
+
+.geek-text{
+
+margin-bottom: 12px;
+
+
+}
+
+
+
+.navegation-bar{
+
+    display: flex;
+}
+
+.generic-buttons{
+
+gap:25px;
+width: 205px;
+display: flex;
+flex-direction: row;
+margin-left: 400px;
+margin-bottom: 20px;
+;
+}
+
+.button-product{
+
+    width: 90px;
+    height: 30px;
+    border-radius: 7px;
+    background-color: rgb(55, 144, 226);
+    border-color: rgb(55, 144, 226);
+    color: white;
+    cursor: pointer;
+}
+
+.button-buy{
+
+    width: 90px;
+    height: 30px;
+    border-radius: 7px;
+    background-color: rgb(240, 240, 240);
+    border-color: rgb(240, 240, 240);
+    cursor: pointer;
+}
+
+
+
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
